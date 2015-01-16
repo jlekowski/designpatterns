@@ -1,0 +1,7 @@
+formatter.name: pretty
+
+suites:
+    strategy_suite:
+        namespace: Strategy\
+        psr4_prefix: Strategy\
+        src_path: strategy/src

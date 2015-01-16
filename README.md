@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jlekowski/designpatterns.svg)](https://travis-ci.org/jlekowski/designpatterns)
+
 # Design Patterns
 #### Implemented:
 * Strategy - as API clients for version 1 and 2

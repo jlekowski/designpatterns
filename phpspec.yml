@@ -5,3 +5,4 @@ suites:
         namespace: Strategy\
         psr4_prefix: Strategy\
         src_path: strategy/src
+        spec_path: strategy

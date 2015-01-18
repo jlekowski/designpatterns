@@ -6,3 +6,9 @@ suites:
         psr4_prefix: Strategy\
         src_path: strategy/src
         spec_path: strategy
+
+    factory_suite:
+        namespace: Factory\
+        psr4_prefix: Factory\
+        src_path: factory/src
+        spec_path: factory

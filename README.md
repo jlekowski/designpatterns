@@ -2,7 +2,7 @@
 
 # Design Patterns
 #### Implemented:
-* Strategy - as API clients for version 1 and 2
+* [strategy](Strategy) - as API clients for version 1 and 2
 
 
 ## === Instalation ===
@@ -13,7 +13,7 @@ php composer.phar install
 
 ## === Run ===
 ```
-php strategy/test.php
+php strategy/example.php
 ```
 
 ## === Test ===

@@ -2,7 +2,8 @@
 
 # Design Patterns
 #### Implemented:
-* [strategy](Strategy) - as API clients for version 1 and 2
+* [Factory (Static Factory)](Factory) - as SOAP and REST API clients
+* [Strategy](Strategy) - as API clients for version 1 and 2
 
 
 ## === Instalation ===
@@ -13,7 +14,8 @@ php composer.phar install
 
 ## === Run ===
 ```
-php strategy/example.php
+php Factory/example.php
+php Strategy/example.php
 ```
 
 ## === Test ===

@@ -2,13 +2,13 @@ formatter.name: pretty
 
 suites:
     strategy_suite:
-        namespace: Strategy\
-        psr4_prefix: Strategy\
-        src_path: strategy/src
-        spec_path: strategy
+        namespace: DesignPatterns\Strategy\
+        psr4_prefix: DesignPatterns\Strategy\
+        src_path: Strategy/src
+        spec_path: Strategy
 
     factory_suite:
-        namespace: Factory\
-        psr4_prefix: Factory\
-        src_path: factory/src
-        spec_path: factory
+        namespace: DesignPatterns\Factory\
+        psr4_prefix: DesignPatterns\Factory\
+        src_path: Factory/src
+        spec_path: Factory

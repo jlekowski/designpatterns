@@ -1,10 +1,10 @@
 <?php
 
-namespace spec\Strategy;
+namespace spec\DesignPatterns\Strategy;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
-use Strategy\ApiClientInterface;
+use DesignPatterns\Strategy\ApiClientInterface;
 
 class ApiTesterSpec extends ObjectBehavior
 {
@@ -15,7 +15,7 @@ class ApiTesterSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Strategy\ApiTester');
+        $this->shouldHaveType('DesignPatterns\Strategy\ApiTester');
     }
 
     public function it_gets_api_client($apiClient)

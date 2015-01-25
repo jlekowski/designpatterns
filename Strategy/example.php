@@ -10,14 +10,14 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$apiClientV1 = new \Strategy\ApiClientV1();
-$apiTest = new \Strategy\ApiTester($apiClientV1);
+$apiClientV1 = new \DesignPatterns\Strategy\ApiClientV1();
+$apiTest = new \DesignPatterns\Strategy\ApiTester($apiClientV1);
 
 if ($apiTest->isApiWorking()) {
     printf("API version %s is working\n", $apiTest->getApiVersion());
 }
 
-$apiClientV2 = new \Strategy\ApiClientV2();
+$apiClientV2 = new \DesignPatterns\Strategy\ApiClientV2();
 if ($apiTest->setApiClient($apiClientV2)->isApiWorking()) {
     printf("API version %s is working\n", $apiTest->getApiVersion());
 }

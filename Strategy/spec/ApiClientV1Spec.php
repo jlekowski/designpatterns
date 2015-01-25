@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Strategy;
+namespace spec\DesignPatterns\Strategy;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -9,7 +9,7 @@ class ApiClientV1Spec extends ObjectBehavior
 {
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Strategy\ApiClientV1');
+        $this->shouldHaveType('DesignPatterns\Strategy\ApiClientV1');
     }
 
     public function it_gets_api_status()

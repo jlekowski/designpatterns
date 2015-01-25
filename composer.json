@@ -6,5 +6,10 @@
     "config": {
         "bin-dir": "bin"
     },
-    "autoload": {"psr-4": {"Strategy\\": "strategy/src/", "Factory\\": "factory/src/"}}
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\Strategy\\": "Strategy/src/",
+            "DesignPatterns\\Factory\\": "Factory/src/"
+        }
+    }
 }

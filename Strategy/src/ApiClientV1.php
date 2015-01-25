@@ -1,6 +1,6 @@
 <?php
 
-namespace Strategy;
+namespace DesignPatterns\Strategy;
 
 class ApiClientV1 implements ApiClientInterface
 {

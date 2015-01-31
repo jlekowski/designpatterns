@@ -14,14 +14,14 @@ $apiClientV1 = new \DesignPatterns\Strategy\ApiClientV1();
 $apiTest = new \DesignPatterns\Strategy\ApiTester($apiClientV1);
 
 if ($apiTest->isApiWorking()) {
-    printf("API version %s is working\n", $apiTest->getApiVersion());
+    printf("- API version %s is working\n", $apiTest->getApiVersion());
 } else {
     printf("ERROR: API version %s is not working\n", $apiTest->getApiVersion());
 }
 
 $apiClientV2 = new \DesignPatterns\Strategy\ApiClientV2();
 if ($apiTest->setApiClient($apiClientV2)->isApiWorking()) {
-    printf("API version %s is working\n", $apiTest->getApiVersion());
+    printf("- API version %s is working\n", $apiTest->getApiVersion());
 } else {
     printf("ERROR: API version %s is not working\n", $apiTest->getApiVersion());
 }

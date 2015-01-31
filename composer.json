@@ -1,4 +1,7 @@
 {
+    "name": "jlekowski/designpatterns",
+    "description" : "Examples of implementation design patterns in PHP",
+    "license": "MIT",
     "require-dev": {
         "phpspec/phpspec": "~2.0",
         "squizlabs/php_codesniffer": "2.*"

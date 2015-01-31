@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jlekowski/designpatterns.svg)](https://travis-ci.org/jlekowski/designpatterns)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/f1a79fb5-54be-45a9-abb7-11c2e8e40500/mini.png)](https://insight.sensiolabs.com/projects/f1a79fb5-54be-45a9-abb7-11c2e8e40500)
 
 # Design Patterns
 #### Implemented:

@@ -12,3 +12,9 @@ suites:
         psr4_prefix: DesignPatterns\Factory\
         src_path: Factory/src
         spec_path: Factory
+
+    dataMapper_suite:
+        namespace: DesignPatterns\DataMapper\
+        psr4_prefix: DesignPatterns\DataMapper\
+        src_path: DataMapper/src
+        spec_path: DataMapper

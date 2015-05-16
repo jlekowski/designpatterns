@@ -2,10 +2,14 @@
 
 namespace spec\DesignPatterns\Strategy;
 
+use DesignPatterns\Strategy\ApiTester;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use DesignPatterns\Strategy\ApiClientInterface;
 
+/**
+ * @mixin ApiTester
+ */
 class ApiTesterSpec extends ObjectBehavior
 {
     public function let(ApiClientInterface $apiClient)

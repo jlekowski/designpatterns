@@ -2,9 +2,13 @@
 
 namespace spec\DesignPatterns\DataMapper;
 
+use DesignPatterns\DataMapper\User;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
+/**
+ * @mixin User
+ */
 class UserSpec extends ObjectBehavior
 {
     public function it_is_initializable()

@@ -2,9 +2,13 @@
 
 namespace spec\DesignPatterns\Strategy;
 
+use DesignPatterns\Strategy\ApiClientV1;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
+/**
+ * @mixin ApiClientV1
+ */
 class ApiClientV1Spec extends ObjectBehavior
 {
     public function it_is_initializable()

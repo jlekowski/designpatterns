@@ -3,9 +3,13 @@
 namespace spec\DesignPatterns\DataMapper;
 
 use DesignPatterns\DataMapper\User;
+use DesignPatterns\DataMapper\UserMapper;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
+/**
+ * @mixin UserMapper
+ */
 class UserMapperSpec extends ObjectBehavior
 {
     public function let(\PDO $db)

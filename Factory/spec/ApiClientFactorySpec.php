@@ -2,9 +2,13 @@
 
 namespace spec\DesignPatterns\Factory;
 
+use DesignPatterns\Factory\ApiClientFactory;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
+/**
+ * @mixin ApiClientFactory
+ */
 class ApiClientFactorySpec extends ObjectBehavior
 {
     public function it_is_initializable()

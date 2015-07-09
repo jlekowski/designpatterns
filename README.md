@@ -6,12 +6,13 @@
 * [Data Mapper](DataMapper) - as User object and User object Mapper
 * [Factory (Static Factory)](Factory) - as SOAP and REST API clients
 * [Strategy](Strategy) - as API clients for version 1 and 2
+* [Observer](Observer) - as User object with Cache and Mailer observers
 
 
 ## === Instalation ===
 Download composer and:
 ```
-php composer.phar install
+composer install
 ```
 
 ## === Run ===
@@ -23,6 +24,7 @@ OR
 php DataMapper/example.php
 php Factory/example.php
 php Strategy/example.php
+php Observer/example.php
 ```
 
 ## === Test ===

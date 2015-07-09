@@ -13,7 +13,8 @@
         "psr-4": {
             "DesignPatterns\\Strategy\\": "Strategy/src/",
             "DesignPatterns\\Factory\\": "Factory/src/",
-            "DesignPatterns\\DataMapper\\": "DataMapper/src/"
+            "DesignPatterns\\DataMapper\\": "DataMapper/src/",
+            "DesignPatterns\\Observer\\": "Observer/src/"
         }
     }
 }

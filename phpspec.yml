@@ -18,3 +18,9 @@ suites:
         psr4_prefix: DesignPatterns\DataMapper\
         src_path: DataMapper/src
         spec_path: DataMapper
+
+    observer_suite:
+        namespace: DesignPatterns\Observer\
+        psr4_prefix: DesignPatterns\Observer\
+        src_path: Observer/src
+        spec_path: Observer

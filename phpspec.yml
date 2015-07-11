@@ -24,3 +24,9 @@ suites:
         psr4_prefix: DesignPatterns\Observer\
         src_path: Observer/src
         spec_path: Observer
+
+    decorator_suite:
+        namespace: DesignPatterns\Decorator\
+        psr4_prefix: DesignPatterns\Decorator\
+        src_path: Decorator/src
+        spec_path: Decorator

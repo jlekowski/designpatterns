@@ -4,6 +4,7 @@
 # Design Patterns
 #### Implemented:
 * [Data Mapper](DataMapper) - as User object and User object Mapper
+* [Decorator](Decorator) - as API and user response
 * [Factory (Static Factory)](Factory) - as SOAP and REST API clients
 * [Strategy](Strategy) - as API clients for version 1 and 2
 * [Observer](Observer) - as User object with Cache and Mailer observers

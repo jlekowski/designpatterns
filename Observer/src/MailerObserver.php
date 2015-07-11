@@ -18,7 +18,7 @@ class MailerObserver implements \SplObserver
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function update(\SplSubject $subject)
     {

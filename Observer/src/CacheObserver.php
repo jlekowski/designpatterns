@@ -18,7 +18,7 @@ class CacheObserver implements \SplObserver
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function update(\SplSubject $subject)
     {

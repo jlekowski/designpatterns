@@ -58,7 +58,7 @@ class User implements \SplSubject
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function attach(\SplObserver $observer)
     {
@@ -66,7 +66,7 @@ class User implements \SplSubject
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function detach(\SplObserver $observer)
     {
@@ -74,7 +74,7 @@ class User implements \SplSubject
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function notify()
     {

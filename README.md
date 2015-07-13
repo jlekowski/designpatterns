@@ -23,6 +23,7 @@ php bin/examples.php
 OR
 ```
 php DataMapper/example.php
+php Decorator/example.php
 php Factory/example.php
 php Strategy/example.php
 php Observer/example.php

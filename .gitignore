@@ -3,3 +3,4 @@ vendor
 bin/phpspec
 bin/phpcs
 bin/phpcbf
+bin/phpunit

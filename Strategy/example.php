@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * The main idea is that ApiTest object may work with different API clients.
  *

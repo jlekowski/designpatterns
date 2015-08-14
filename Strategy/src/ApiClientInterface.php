@@ -7,10 +7,10 @@ interface ApiClientInterface
     /**
      * @return string
      */
-    public function getApiStatus();
+    public function getApiStatus(): string;
 
     /**
      * @return float
      */
-    public function getApiVersion();
+    public function getApiVersion(): float;
 }

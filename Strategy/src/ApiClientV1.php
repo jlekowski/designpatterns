@@ -7,7 +7,7 @@ class ApiClientV1 implements ApiClientInterface
     /**
      * {@inheritDoc}
      */
-    public function getApiStatus()
+    public function getApiStatus(): string
     {
         $apiResponse = 'OK';
 
@@ -17,7 +17,7 @@ class ApiClientV1 implements ApiClientInterface
     /**
      * {@inheritDoc}
      */
-    public function getApiVersion()
+    public function getApiVersion(): float
     {
         $apiResponse = 1.2;
 

@@ -20,7 +20,7 @@ class ApiTester
     /**
      * @return ApiClientInterface
      */
-    public function getApiClient()
+    public function getApiClient(): ApiClientInterface
     {
         return $this->apiClient;
     }
@@ -29,7 +29,7 @@ class ApiTester
      * @param ApiClientInterface $apiClient
      * @return $this
      */
-    public function setApiClient(ApiClientInterface $apiClient)
+    public function setApiClient(ApiClientInterface $apiClient): self
     {
         $this->apiClient = $apiClient;
 
@@ -39,7 +39,7 @@ class ApiTester
     /**
      * @return bool
      */
-    public function isApiWorking()
+    public function isApiWorking(): bool
     {
         return $this->apiClient->getApiStatus() == 'OK';
     }
@@ -47,7 +47,7 @@ class ApiTester
     /**
      * @return float
      */
-    public function getApiVersion()
+    public function getApiVersion(): float
     {
         return $this->apiClient->getApiVersion();
     }

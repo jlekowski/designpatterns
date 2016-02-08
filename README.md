@@ -33,5 +33,3 @@ php Observer/example.php
 ```
 bin/phpspec run
 ```
-## === Notes ===
-Because of phpspec way to provide mocked objects tests don't work on PHP 7 (see https://github.com/phpspec/phpspec/issues/659)

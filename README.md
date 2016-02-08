@@ -32,4 +32,5 @@ php Observer/example.php
 ## === Test ===
 ```
 bin/phpspec run
+bin/phpunit
 ```

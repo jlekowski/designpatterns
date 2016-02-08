@@ -15,5 +15,5 @@ install:
 
 script:
   - bin/phpspec run
+  - bin/phpunit
   - bin/phpcs -p --standard=PSR2 --ignore=vendor,Spec.php .
-

@@ -7,14 +7,6 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Child class for abstract class testing
- */
-class AbstractUserDecorator extends \DesignPatterns\Decorator\AbstractUserDecorator
-{
-    public function getName() {}
-}
-
-/**
  * @mixin AbstractUserDecorator
  */
 class AbstractUserDecoratorSpec extends ObjectBehavior
@@ -34,4 +26,12 @@ class AbstractUserDecoratorSpec extends ObjectBehavior
     {
         $this->shouldBeAnInstanceOf('DesignPatterns\Decorator\UserInterface');
     }
+}
+
+/**
+ * Child class for abstract class testing
+ */
+class AbstractUserDecorator extends \DesignPatterns\Decorator\AbstractUserDecorator
+{
+    public function getName() {}
 }
